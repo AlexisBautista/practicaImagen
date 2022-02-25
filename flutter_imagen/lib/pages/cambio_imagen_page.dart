@@ -18,6 +18,8 @@ class CambioImagenPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               IconButton(
+                  splashColor: Colors.amber,
+                  iconSize: 80,
                   onPressed: () {
                     _.cambioImgLeft();
                   },
@@ -27,6 +29,8 @@ class CambioImagenPage extends StatelessWidget {
                 backgroundImage: NetworkImage(_.urlImg),
               ),
               IconButton(
+                  splashColor: Colors.purple,
+                  iconSize: 80,
                   onPressed: () {
                     _.cambioImgRight();
                   },
